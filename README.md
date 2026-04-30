@@ -1,13 +1,5 @@
 # Sole&Ankle, Revisited — Module 5 workshop
 
-In the Flexbox module, we built an e-commerce store:
-
-![A screenshot of the original Flexbox module workshop](./docs/original-desktop.png)
-
-In this workshop, we'll make this application responsive, so that it looks great and works well on phones and tablets:
-
-![A GIF showing how the design changes across viewport widths](./docs/resize-demo.gif)
-
 The design can be found on Figma:
 
 - https://www.figma.com/file/kAL3AumTUV11y1IqHhltB6/Sole-and-Ankle-%E2%80%94-Mockup
@@ -25,28 +17,6 @@ We'll use a **desktop-first** approach for this process, and our breakpoints wil
 If you run into problems running a local development server, check out our [Troubleshooting Guide](https://courses.joshwcomeau.com/troubleshooting) on the course platform.
 
 ---
-
-## Exercise 1: Set up our breakpoints
-
-Before we start tweaking the UI, let's add some structure to make it easy for us to use media queries.
-
-It's up to you how you'd like to structure it! You can use the strategy discussed in [the “breakpoints” lesson](https://courses.joshwcomeau.com/css-for-js/05-responsive-css/07-breakpoints#managing-breakpoints), or you can use [styled-components' “theming” feature](https://styled-components.com/docs/advanced#theming).
-
-Whichever approach you choose, your breakpoints should be specified in rems (not pixels). I suggest storing them in the `/src/constants.js` file.
-
-This first exercise is about setup. We’ll use these breakpoints in the subsequent exercises.
-
-## Exercise 2: Mobile header
-
-On smaller screens, we want to switch up our header:
-
-![Close-up screenshot of the new header](./docs/mobile-header.png)
-
-Our `SuperHeader` is removed, replaced with a decorative dark-gray line. The `Header`'s navigation is replaced by 3 icon buttons.
-
-On mobile, a lot of the spacing gets tightened up.
-
-**I recommend checking your work on a real mobile device.** You can use ngrok, as described in [the “Mobile Testing” lesson](https://courses.joshwcomeau.com/css-for-js/05-responsive-css/03-mobile-testing).
 
 ## Exercise 3: Tweaks to our main view
 
